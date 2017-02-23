@@ -15,6 +15,9 @@
 		ED54432B1E5EB4EA00F03587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5443291E5EB4EA00F03587 /* LaunchScreen.storyboard */; };
 		ED5443361E5EB4EA00F03587 /* LJAreaPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5443351E5EB4EA00F03587 /* LJAreaPickerViewTests.m */; };
 		ED5443411E5EB4EA00F03587 /* LJAreaPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5443401E5EB4EA00F03587 /* LJAreaPickerViewUITests.m */; };
+		ED5443511E5EB5E000F03587 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED5443501E5EB5E000F03587 /* area.plist */; };
+		ED5443551E5EB62A00F03587 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5443531E5EB62A00F03587 /* PickerViewController.m */; };
+		ED5443561E5EB62A00F03587 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5443541E5EB62A00F03587 /* PickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		ED54433C1E5EB4EA00F03587 /* LJAreaPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJAreaPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5443401E5EB4EA00F03587 /* LJAreaPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAreaPickerViewUITests.m; sourceTree = "<group>"; };
 		ED5443421E5EB4EA00F03587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5443501E5EB5E000F03587 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		ED5443521E5EB62A00F03587 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerViewController.h; path = ../PickerViewController.h; sourceTree = "<group>"; };
+		ED5443531E5EB62A00F03587 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerViewController.m; path = ../PickerViewController.m; sourceTree = "<group>"; };
+		ED5443541E5EB62A00F03587 /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PickerViewController.xib; path = ../PickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,7 @@
 		ED54431A1E5EB4EA00F03587 /* LJAreaPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				ED54434F1E5EB5CB00F03587 /* LJArea */,
 				ED54431E1E5EB4EA00F03587 /* AppDelegate.h */,
 				ED54431F1E5EB4EA00F03587 /* AppDelegate.m */,
 				ED5443211E5EB4EA00F03587 /* ViewController.h */,
@@ -138,6 +146,17 @@
 				ED5443421E5EB4EA00F03587 /* Info.plist */,
 			);
 			path = LJAreaPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		ED54434F1E5EB5CB00F03587 /* LJArea */ = {
+			isa = PBXGroup;
+			children = (
+				ED5443501E5EB5E000F03587 /* area.plist */,
+				ED5443521E5EB62A00F03587 /* PickerViewController.h */,
+				ED5443531E5EB62A00F03587 /* PickerViewController.m */,
+				ED5443541E5EB62A00F03587 /* PickerViewController.xib */,
+			);
+			path = LJArea;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED54432B1E5EB4EA00F03587 /* LaunchScreen.storyboard in Resources */,
+				ED5443511E5EB5E000F03587 /* area.plist in Resources */,
 				ED5443281E5EB4EA00F03587 /* Assets.xcassets in Resources */,
+				ED5443561E5EB62A00F03587 /* PickerViewController.xib in Resources */,
 				ED5443261E5EB4EA00F03587 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +299,7 @@
 			files = (
 				ED5443231E5EB4EA00F03587 /* ViewController.m in Sources */,
 				ED5443201E5EB4EA00F03587 /* AppDelegate.m in Sources */,
+				ED5443551E5EB62A00F03587 /* PickerViewController.m in Sources */,
 				ED54431D1E5EB4EA00F03587 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
