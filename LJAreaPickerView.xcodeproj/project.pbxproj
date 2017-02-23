@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED54431D1E5EB4EA00F03587 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED54431C1E5EB4EA00F03587 /* main.m */; };
+		ED5443201E5EB4EA00F03587 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED54431F1E5EB4EA00F03587 /* AppDelegate.m */; };
+		ED5443231E5EB4EA00F03587 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5443221E5EB4EA00F03587 /* ViewController.m */; };
+		ED5443261E5EB4EA00F03587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5443241E5EB4EA00F03587 /* Main.storyboard */; };
+		ED5443281E5EB4EA00F03587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5443271E5EB4EA00F03587 /* Assets.xcassets */; };
+		ED54432B1E5EB4EA00F03587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5443291E5EB4EA00F03587 /* LaunchScreen.storyboard */; };
+		ED5443361E5EB4EA00F03587 /* LJAreaPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5443351E5EB4EA00F03587 /* LJAreaPickerViewTests.m */; };
+		ED5443411E5EB4EA00F03587 /* LJAreaPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5443401E5EB4EA00F03587 /* LJAreaPickerViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED5443321E5EB4EA00F03587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5443101E5EB4EA00F03587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5443171E5EB4EA00F03587;
+			remoteInfo = LJAreaPickerView;
+		};
+		ED54433D1E5EB4EA00F03587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5443101E5EB4EA00F03587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5443171E5EB4EA00F03587;
+			remoteInfo = LJAreaPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED5443181E5EB4EA00F03587 /* LJAreaPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJAreaPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED54431C1E5EB4EA00F03587 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED54431E1E5EB4EA00F03587 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED54431F1E5EB4EA00F03587 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED5443211E5EB4EA00F03587 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED5443221E5EB4EA00F03587 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED5443251E5EB4EA00F03587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED5443271E5EB4EA00F03587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED54432A1E5EB4EA00F03587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED54432C1E5EB4EA00F03587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5443311E5EB4EA00F03587 /* LJAreaPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJAreaPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5443351E5EB4EA00F03587 /* LJAreaPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAreaPickerViewTests.m; sourceTree = "<group>"; };
+		ED5443371E5EB4EA00F03587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED54433C1E5EB4EA00F03587 /* LJAreaPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJAreaPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5443401E5EB4EA00F03587 /* LJAreaPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAreaPickerViewUITests.m; sourceTree = "<group>"; };
+		ED5443421E5EB4EA00F03587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED5443151E5EB4EA00F03587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54432E1E5EB4EA00F03587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5443391E5EB4EA00F03587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED54430F1E5EB4EA00F03587 = {
+			isa = PBXGroup;
+			children = (
+				ED54431A1E5EB4EA00F03587 /* LJAreaPickerView */,
+				ED5443341E5EB4EA00F03587 /* LJAreaPickerViewTests */,
+				ED54433F1E5EB4EA00F03587 /* LJAreaPickerViewUITests */,
+				ED5443191E5EB4EA00F03587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED5443191E5EB4EA00F03587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED5443181E5EB4EA00F03587 /* LJAreaPickerView.app */,
+				ED5443311E5EB4EA00F03587 /* LJAreaPickerViewTests.xctest */,
+				ED54433C1E5EB4EA00F03587 /* LJAreaPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED54431A1E5EB4EA00F03587 /* LJAreaPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				ED54431E1E5EB4EA00F03587 /* AppDelegate.h */,
+				ED54431F1E5EB4EA00F03587 /* AppDelegate.m */,
+				ED5443211E5EB4EA00F03587 /* ViewController.h */,
+				ED5443221E5EB4EA00F03587 /* ViewController.m */,
+				ED5443241E5EB4EA00F03587 /* Main.storyboard */,
+				ED5443271E5EB4EA00F03587 /* Assets.xcassets */,
+				ED5443291E5EB4EA00F03587 /* LaunchScreen.storyboard */,
+				ED54432C1E5EB4EA00F03587 /* Info.plist */,
+				ED54431B1E5EB4EA00F03587 /* Supporting Files */,
+			);
+			path = LJAreaPickerView;
+			sourceTree = "<group>";
+		};
+		ED54431B1E5EB4EA00F03587 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED54431C1E5EB4EA00F03587 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED5443341E5EB4EA00F03587 /* LJAreaPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5443351E5EB4EA00F03587 /* LJAreaPickerViewTests.m */,
+				ED5443371E5EB4EA00F03587 /* Info.plist */,
+			);
+			path = LJAreaPickerViewTests;
+			sourceTree = "<group>";
+		};
+		ED54433F1E5EB4EA00F03587 /* LJAreaPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5443401E5EB4EA00F03587 /* LJAreaPickerViewUITests.m */,
+				ED5443421E5EB4EA00F03587 /* Info.plist */,
+			);
+			path = LJAreaPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED5443171E5EB4EA00F03587 /* LJAreaPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5443451E5EB4EA00F03587 /* Build configuration list for PBXNativeTarget "LJAreaPickerView" */;
+			buildPhases = (
+				ED5443141E5EB4EA00F03587 /* Sources */,
+				ED5443151E5EB4EA00F03587 /* Frameworks */,
+				ED5443161E5EB4EA00F03587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJAreaPickerView;
+			productName = LJAreaPickerView;
+			productReference = ED5443181E5EB4EA00F03587 /* LJAreaPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED5443301E5EB4EA00F03587 /* LJAreaPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5443481E5EB4EA00F03587 /* Build configuration list for PBXNativeTarget "LJAreaPickerViewTests" */;
+			buildPhases = (
+				ED54432D1E5EB4EA00F03587 /* Sources */,
+				ED54432E1E5EB4EA00F03587 /* Frameworks */,
+				ED54432F1E5EB4EA00F03587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5443331E5EB4EA00F03587 /* PBXTargetDependency */,
+			);
+			name = LJAreaPickerViewTests;
+			productName = LJAreaPickerViewTests;
+			productReference = ED5443311E5EB4EA00F03587 /* LJAreaPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED54433B1E5EB4EA00F03587 /* LJAreaPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED54434B1E5EB4EA00F03587 /* Build configuration list for PBXNativeTarget "LJAreaPickerViewUITests" */;
+			buildPhases = (
+				ED5443381E5EB4EA00F03587 /* Sources */,
+				ED5443391E5EB4EA00F03587 /* Frameworks */,
+				ED54433A1E5EB4EA00F03587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED54433E1E5EB4EA00F03587 /* PBXTargetDependency */,
+			);
+			name = LJAreaPickerViewUITests;
+			productName = LJAreaPickerViewUITests;
+			productReference = ED54433C1E5EB4EA00F03587 /* LJAreaPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED5443101E5EB4EA00F03587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = silen;
+				TargetAttributes = {
+					ED5443171E5EB4EA00F03587 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6UZP8KCQ4U;
+						ProvisioningStyle = Automatic;
+					};
+					ED5443301E5EB4EA00F03587 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6UZP8KCQ4U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED5443171E5EB4EA00F03587;
+					};
+					ED54433B1E5EB4EA00F03587 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6UZP8KCQ4U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED5443171E5EB4EA00F03587;
+					};
+				};
+			};
+			buildConfigurationList = ED5443131E5EB4EA00F03587 /* Build configuration list for PBXProject "LJAreaPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED54430F1E5EB4EA00F03587;
+			productRefGroup = ED5443191E5EB4EA00F03587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED5443171E5EB4EA00F03587 /* LJAreaPickerView */,
+				ED5443301E5EB4EA00F03587 /* LJAreaPickerViewTests */,
+				ED54433B1E5EB4EA00F03587 /* LJAreaPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED5443161E5EB4EA00F03587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED54432B1E5EB4EA00F03587 /* LaunchScreen.storyboard in Resources */,
+				ED5443281E5EB4EA00F03587 /* Assets.xcassets in Resources */,
+				ED5443261E5EB4EA00F03587 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54432F1E5EB4EA00F03587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54433A1E5EB4EA00F03587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED5443141E5EB4EA00F03587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5443231E5EB4EA00F03587 /* ViewController.m in Sources */,
+				ED5443201E5EB4EA00F03587 /* AppDelegate.m in Sources */,
+				ED54431D1E5EB4EA00F03587 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54432D1E5EB4EA00F03587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5443361E5EB4EA00F03587 /* LJAreaPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5443381E5EB4EA00F03587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5443411E5EB4EA00F03587 /* LJAreaPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED5443331E5EB4EA00F03587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5443171E5EB4EA00F03587 /* LJAreaPickerView */;
+			targetProxy = ED5443321E5EB4EA00F03587 /* PBXContainerItemProxy */;
+		};
+		ED54433E1E5EB4EA00F03587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5443171E5EB4EA00F03587 /* LJAreaPickerView */;
+			targetProxy = ED54433D1E5EB4EA00F03587 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED5443241E5EB4EA00F03587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5443251E5EB4EA00F03587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED5443291E5EB4EA00F03587 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED54432A1E5EB4EA00F03587 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED5443431E5EB4EA00F03587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED5443441E5EB4EA00F03587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED5443461E5EB4EA00F03587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6UZP8KCQ4U;
+				INFOPLIST_FILE = LJAreaPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CBbingWev.LJAreaPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED5443471E5EB4EA00F03587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6UZP8KCQ4U;
+				INFOPLIST_FILE = LJAreaPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CBbingWev.LJAreaPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED5443491E5EB4EA00F03587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6UZP8KCQ4U;
+				INFOPLIST_FILE = LJAreaPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CBbingWev.LJAreaPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJAreaPickerView.app/LJAreaPickerView";
+			};
+			name = Debug;
+		};
+		ED54434A1E5EB4EA00F03587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6UZP8KCQ4U;
+				INFOPLIST_FILE = LJAreaPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CBbingWev.LJAreaPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJAreaPickerView.app/LJAreaPickerView";
+			};
+			name = Release;
+		};
+		ED54434C1E5EB4EA00F03587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6UZP8KCQ4U;
+				INFOPLIST_FILE = LJAreaPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CBbingWev.LJAreaPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJAreaPickerView;
+			};
+			name = Debug;
+		};
+		ED54434D1E5EB4EA00F03587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6UZP8KCQ4U;
+				INFOPLIST_FILE = LJAreaPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CBbingWev.LJAreaPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJAreaPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED5443131E5EB4EA00F03587 /* Build configuration list for PBXProject "LJAreaPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5443431E5EB4EA00F03587 /* Debug */,
+				ED5443441E5EB4EA00F03587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5443451E5EB4EA00F03587 /* Build configuration list for PBXNativeTarget "LJAreaPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5443461E5EB4EA00F03587 /* Debug */,
+				ED5443471E5EB4EA00F03587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED5443481E5EB4EA00F03587 /* Build configuration list for PBXNativeTarget "LJAreaPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5443491E5EB4EA00F03587 /* Debug */,
+				ED54434A1E5EB4EA00F03587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED54434B1E5EB4EA00F03587 /* Build configuration list for PBXNativeTarget "LJAreaPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED54434C1E5EB4EA00F03587 /* Debug */,
+				ED54434D1E5EB4EA00F03587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED5443101E5EB4EA00F03587 /* Project object */;
+}
