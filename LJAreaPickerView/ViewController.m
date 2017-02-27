@@ -5,7 +5,7 @@
 //  Created by silen on 2017/2/23.
 //  Copyright © 2017年 silen. All rights reserved.
 //
-#import "PickerViewController.h"
+#import "LJArea/PickerViewController.h"
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -16,17 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _picker = [PickerViewController new];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _picker = [PickerViewController shareLJArea];
+    
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 - (IBAction)dddd:(id)sender {
-    
     [_picker initWithPickerColor:[UIColor whiteColor] CloseButtonColor:[UIColor blueColor] showView:self.view inBlock:^(id returnValue) {
         self.label.text = returnValue;
     }];
