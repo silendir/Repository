@@ -6,9 +6,9 @@
 //  Copyright © 2017年 CB. All rights reserved.
 //
 
-#import "PickerViewController.h"
+#import "LJAreaPickerView.h"
 
-@interface PickerViewController ()<UIPickerViewDelegate,UIPickerViewDataSource>
+@interface LJAreaPickerView ()<UIPickerViewDelegate,UIPickerViewDataSource>
     //piker
     @property (nonatomic,strong)UIView* pickerBackGround;
     @property (nonatomic,strong) UIPickerView* pickerView;
@@ -23,7 +23,7 @@
     @property (nonatomic,strong)NSMutableArray* areasArray;
 @end
 
-@implementation PickerViewController
+@implementation LJAreaPickerView
 
 - (void)initWithPickerColor:(UIColor*)pickerColor
            CloseButtonColor:(UIColor*)closeButtonColor
@@ -63,21 +63,16 @@
     [self didClickArea];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
     
-//- (IBAction)didClickLabel:(id)sender {
-//    [self didClickArea];
-//}
+
 
 
 #pragma mark 点击地区按钮(弹出pickerView)
 - (void)didClickArea{
     NSLog(@"%@,%@,%@",self.state,self.city,self.areas);
     NSLog(@"didClickArea:");
-    [self.view endEditing:YES];
+    
     __weak typeof(self) weakSelf = self;
     if (self.pickerBackGround) {
         
@@ -268,11 +263,11 @@
     }
 #pragma mark - 单例
 +(instancetype)shareLJArea{
-        static PickerViewController *ljArea = nil;
+        static LJAreaPickerView *ljArea = nil;
         //给单例加了一个线程锁
         static dispatch_once_t onceToken;
         dispatch_once(&onceToken, ^{
-            ljArea = [[PickerViewController alloc] init];
+            ljArea = [[LJAreaPickerView alloc] init];
         }); 
     return ljArea;
 }

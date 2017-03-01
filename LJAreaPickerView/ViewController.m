@@ -5,11 +5,11 @@
 //  Created by silen on 2017/2/23.
 //  Copyright © 2017年 silen. All rights reserved.
 //
-#import "LJArea/PickerViewController.h"
+#import "LJArea/LJAreaPickerView.h"
 #import "ViewController.h"
 
 @interface ViewController ()
-    @property (nonatomic,strong) PickerViewController* picker;
+    @property (nonatomic,strong) LJAreaPickerView* picker;
 @end
 
 @implementation ViewController
@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _picker = [PickerViewController shareLJArea];
+    _picker = [LJAreaPickerView shareLJArea];
     
 }
 

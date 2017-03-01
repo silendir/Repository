@@ -16,7 +16,7 @@
 		ED5443361E5EB4EA00F03587 /* LJAreaPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5443351E5EB4EA00F03587 /* LJAreaPickerViewTests.m */; };
 		ED5443411E5EB4EA00F03587 /* LJAreaPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5443401E5EB4EA00F03587 /* LJAreaPickerViewUITests.m */; };
 		ED5443511E5EB5E000F03587 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED5443501E5EB5E000F03587 /* area.plist */; };
-		ED5443601E63C6FF00F03587 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED54435E1E63C6FF00F03587 /* PickerViewController.m */; };
+		ED5443601E63C6FF00F03587 /* LJAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED54435E1E63C6FF00F03587 /* LJAreaPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		ED5443401E5EB4EA00F03587 /* LJAreaPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAreaPickerViewUITests.m; sourceTree = "<group>"; };
 		ED5443421E5EB4EA00F03587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED5443501E5EB5E000F03587 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
-		ED54435D1E63C6FF00F03587 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
-		ED54435E1E63C6FF00F03587 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		ED54435D1E63C6FF00F03587 /* LJAreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJAreaPickerView.h; sourceTree = "<group>"; };
+		ED54435E1E63C6FF00F03587 /* LJAreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJAreaPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +149,8 @@
 		ED54434F1E5EB5CB00F03587 /* LJArea */ = {
 			isa = PBXGroup;
 			children = (
-				ED54435D1E63C6FF00F03587 /* PickerViewController.h */,
-				ED54435E1E63C6FF00F03587 /* PickerViewController.m */,
+				ED54435D1E63C6FF00F03587 /* LJAreaPickerView.h */,
+				ED54435E1E63C6FF00F03587 /* LJAreaPickerView.m */,
 				ED5443501E5EB5E000F03587 /* area.plist */,
 			);
 			path = LJArea;
@@ -295,7 +295,7 @@
 			files = (
 				ED5443231E5EB4EA00F03587 /* ViewController.m in Sources */,
 				ED5443201E5EB4EA00F03587 /* AppDelegate.m in Sources */,
-				ED5443601E63C6FF00F03587 /* PickerViewController.m in Sources */,
+				ED5443601E63C6FF00F03587 /* LJAreaPickerView.m in Sources */,
 				ED54431D1E5EB4EA00F03587 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

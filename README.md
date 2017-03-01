@@ -8,13 +8,14 @@
 
 1/先初始化个单例:
 
-     _picker = [PickerViewController shareLJArea];
+     _picker = [LJAreaPickerView shareLJArea];
 
 2/再....
 
     [_picker initWithPickerColor:[UIColor whiteColor]  //底色
                 CloseButtonColor:[UIColor blueColor]   //关闭按钮颜色
-      showView:self.view inBlock:^(id returnValue) {
+                        showView:self.view             //在哪一个视窗展示出来
+                         inBlock:^(id returnValue) {   //回调block(闭包)
         //获取结果字符串的地方(一个字符串)
         self.label.text = returnValue;
 

@@ -1,5 +1,5 @@
 //
-//  LJArea.h
+//  LJAreaPickerView.h
 //  CBProjects
 //
 //  Created by silen on 2017/2/23.
@@ -13,7 +13,7 @@ typedef void (^ReturnValueBlock) (id returnValue);
 
 #import <UIKit/UIKit.h>
 
-@interface PickerViewController : UIViewController
+@interface LJAreaPickerView: UIView
 //@property (weak, nonatomic) IBOutlet UILabel *label;//演示用的结果显示框
 @property (nonatomic,strong)UIColor* closeButtonTitleColor;
 @property (nonatomic,strong)UIColor* pickerViewBackgroundColor;
